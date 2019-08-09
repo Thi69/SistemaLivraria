@@ -4,7 +4,7 @@ public class Funcionario {
     private int id;
     private String nome;
     private String cpf;
-    private int idVenda; // quantidade de vendas que cada funcionário realizou 
+    private int idEntrega; // quantidade de vendas que cada funcionário realizou 
     private String cargo;
     private float sal;
 
@@ -33,13 +33,15 @@ public class Funcionario {
         this.cpf = cpf;
     }
 
-    public int getIdVenda() {
-        return idVenda;
+    public int getIdEntrega() {
+        return idEntrega;
     }
 
-    public void setIdVenda(int idVenda) {
-        this.idVenda = idVenda;
+    public void setIdEntrega(int idEntrega) {
+        this.idEntrega = idEntrega;
     }
+
+    
 
     public String getCargo() {
         return cargo;
