@@ -1,9 +1,9 @@
-package Entidade;
+package sistemalivraria.domain.Entidades;
 
 import java.util.Date;
 
 public class Livro {
-    private int cod;
+    private int cod; // chave primária
     private String nome;
     private String autor;
     private String categoria;

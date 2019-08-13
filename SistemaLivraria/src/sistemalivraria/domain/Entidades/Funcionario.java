@@ -1,7 +1,7 @@
-package Entidade;
+package sistemalivraria.domain.Entidades;
 
 public class Funcionario {
-    private int id;
+    private int id; // chave primária
     private String nome;
     private String cpf;
     private int idEntrega; // quantidade de vendas que cada funcionário realizou 

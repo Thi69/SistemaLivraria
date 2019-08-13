@@ -1,8 +1,8 @@
-package Entidade;
+package sistemalivraria.domain.Entidades;
 
 public class Cliente {
     private String nome;
-    private String cpf;
+    private String cpf; // chave primária 
     private String email;
     private String telefone;
     private String endereco;

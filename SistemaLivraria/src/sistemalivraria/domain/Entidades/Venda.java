@@ -1,7 +1,7 @@
-package Entidade;
+package sistemalivraria.domain.Entidades;
 
 public class Venda {
-    private int IdVenda;
+    private int IdVenda; // chave primária 
     private String CpfCliente; // chave estrangeira da classe cliente
     private float Total;
 

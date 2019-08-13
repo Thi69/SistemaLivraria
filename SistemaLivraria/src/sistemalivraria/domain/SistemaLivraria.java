@@ -1,4 +1,4 @@
-package sistemalivraria;
+package sistemalivraria.domain;
 
 public class SistemaLivraria {
 

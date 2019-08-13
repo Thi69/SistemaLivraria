@@ -1,9 +1,9 @@
-package Entidade;
+package sistemalivraria.domain.Entidades;
 
 public class Carrinho {
     private int CodProd; // chave estrangeira da classe livro 
     private float PrecoProd; // chave estrangeira da classe livro
-    private int QtdeProd; // chave estrangeira da classe livro para saber a quantidade em estoque 
+    private int QtdeProd; // chave estrangeira da classe livro para saber a quantidade em estoque de cada livro
     private int Qtde; // qntd que o cliente deseja comprar
     private boolean Adicionar; // caso o cliente queira adicionar mais coisas no carrinho
     private boolean Remover; // caso o cliente queira remover algo do carrinho
